@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/huyong/development/android-ndk-r10d/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "sqliteDB-release-arm64-v8a": {
+      "buildCommand": "/Users/huyong/development/android-ndk-r10d/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni/Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/build/intermediates/ndkBuild/release/lib /Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libsqliteDB.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "sqliteDB",
+      "files": [
+        {
+          "src": "/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni/SqlitedbForCK.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fstrict-aliasing\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni\" \"-DANDROID\" \"-DNO_ANDROID_FUNCS\" \"-DNDEBUG\u003d1\" \"-DHAVE_USLEEP\u003d1\" \"-DSQLITE_HAVE_ISNAN\" \"-DSQLITE_DEFAULT_JOURNAL_SIZE_LIMIT\u003d1048576\" \"-DSQLITE_THREADSAFE\u003d2\" \"-DSQLITE_TEMP_STORE\u003d3\" \"-DSQLITE_POWERSAFE_OVERWRITE\u003d1\" \"-DSQLITE_DEFAULT_FILE_FORMAT\u003d4\" \"-DSQLITE_DEFAULT_AUTOVACUUM\u003d1\" \"-DSQLITE_ENABLE_MEMORY_MANAGEMENT\u003d1\" \"-DSQLITE_ENABLE_FTS3\" \"-DSQLITE_ENABLE_FTS3_BACKWARDS\" \"-DSQLITE_ENABLE_FTS4\" \"-DSQLITE_OMIT_BUILTIN_TEST\" \"-DSQLITE_OMIT_COMPILEOPTION_DIAGS\" \"-DSQLITE_OMIT_LOAD_EXTENSION\" \"-DSQLITE_DEFAULT_FILE_PERMISSIONS\u003d0600\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/huyong/development/android-ndk-r10d/platforms/android-21/arch-arm64/usr/include\""
+        },
+        {
+          "src": "/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni/sqlitefunc.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-O2\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fstrict-aliasing\" \"-funswitch-loops\" \"-finline-limit\u003d300\" \"-I/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/src/main/jni\" \"-DANDROID\" \"-DNO_ANDROID_FUNCS\" \"-DNDEBUG\u003d1\" \"-DHAVE_USLEEP\u003d1\" \"-DSQLITE_HAVE_ISNAN\" \"-DSQLITE_DEFAULT_JOURNAL_SIZE_LIMIT\u003d1048576\" \"-DSQLITE_THREADSAFE\u003d2\" \"-DSQLITE_TEMP_STORE\u003d3\" \"-DSQLITE_POWERSAFE_OVERWRITE\u003d1\" \"-DSQLITE_DEFAULT_FILE_FORMAT\u003d4\" \"-DSQLITE_DEFAULT_AUTOVACUUM\u003d1\" \"-DSQLITE_ENABLE_MEMORY_MANAGEMENT\u003d1\" \"-DSQLITE_ENABLE_FTS3\" \"-DSQLITE_ENABLE_FTS3_BACKWARDS\" \"-DSQLITE_ENABLE_FTS4\" \"-DSQLITE_OMIT_BUILTIN_TEST\" \"-DSQLITE_OMIT_COMPILEOPTION_DIAGS\" \"-DSQLITE_OMIT_LOAD_EXTENSION\" \"-DSQLITE_DEFAULT_FILE_PERMISSIONS\u003d0600\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Users/huyong/development/android-ndk-r10d/platforms/android-21/arch-arm64/usr/include\""
+        }
+      ],
+      "output": "/Users/huyong/AndroidStudioProjects/SQLiteDB_JNI/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libsqliteDB.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "/Users/huyong/development/android-ndk-r10d/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
